@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    text-align: center;
+}
+.parent-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    padding-left: 50px;
+    padding-right: 50;
+}
+.grid-item-one img{
+    height: 336px;
+    width: 336px;
+}
+.grid-item-two img{
+    height: 336px;
+    width: 336px;
+}
+.grid-item-three img{
+    height: 336px;
+}
+.parent-grid img:hover{
+    transition: 0.3s;
+    transition-duration: 2s;
+    filter: brightness(40%);
+    cursor: pointer;
+}
